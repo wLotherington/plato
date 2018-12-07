@@ -49,6 +49,7 @@ GEM
     mustermann (1.0.3)
     nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
+    puma (3.12.0)
     rack (2.0.6)
     rack-protection (2.0.4)
       rack
@@ -94,8 +95,12 @@ DEPENDENCIES
   httparty
   mini_magick
   minitest
+  puma
   sinatra
   sinatra-contrib
+
+RUBY VERSION
+   ruby 2.5.1p57
 
 BUNDLED WITH
    1.16.5
