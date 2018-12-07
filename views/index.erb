@@ -1,0 +1,6 @@
+<% session[:images].each do |image| %>
+  <img class="centered" src="<%= image %>" onerror="this.style.display='none'" style="opacity: <%= session[:opacity] %>;" >
+<% end %>
+
+<div class='centered'><%= session[:form_name] %></div>
+<div class='date'><%= session[:form_name] %> | <%= Time.now %></div>

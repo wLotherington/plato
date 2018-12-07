@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Plato's Chair</title>
+    <link href='/plato.css' rel='stylesheet' type='text/css' />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>Plato's Chair</h1>
+    <div class="login">
+      <a href='/'>home</a> &bull; <a href='/about'>about</a>
+    </div>
+
+    <%= yield %>
+
+    <div class='history'>
+      <ul>
+        <% session[:history].reverse.each do |entry| %>
+          <li><a href='/<%= entry %>'><%= entry %></a></li>
+        <% end %>
+      </ul>
+    </div>
+
+    <form class='consider' method='post' action='/consider'>
+      <input name='form_name' id='form_name' />
+      <button type='submit'>consider</button>
+    </form>
+  </body>
+</html>
