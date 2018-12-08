@@ -31,7 +31,7 @@ def valid_input?(form_name)
 end
 
 def add_to_history(form_name)
-  session[:history] << URI.decode(form_name) unless session[:history].include? form_name
+  session[:history] << URI.decode(form_name) unless session[:history].include? URI.decode(form_name)
 
   session[:history].shift while session[:history].size > 20
 end
