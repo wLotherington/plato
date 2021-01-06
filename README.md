@@ -4,6 +4,9 @@
 * **Stack:** `Ruby`
 * **Feedback:** [Will.Lotherington@hey.com](mailto:Will.Lotherington@hey.com)
 
+### What is it?
+Builds a composite image from the top 10 google images.
+
 ![](public/images/chair.png)
 
 ### Overview
