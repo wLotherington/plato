@@ -1,6 +1,6 @@
 # Plato's Chair
 
-* **Try is out:** [Plato's Chair](http://www.platoschair.com/)
+* **Try is out:** [http://www.platoschair.com/](http://www.platoschair.com/)
 * **Stack:** `Ruby`
 * **Feedback:** [Will.Lotherington@hey.com](mailto:Will.Lotherington@hey.com)
 
